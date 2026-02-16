@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Oren Sason | Portfolio</title>
+  <title>Oren Sason | Engineering Portfolio</title>
   <meta name="description" content="Oren Sason — Mechanical Engineering student at Durham University. Engineering portfolio." />
 
   <style>
@@ -31,7 +31,8 @@
     }
     h1{ font-size:44px; margin:0 0 10px; }
     .sub{ color:var(--muted); margin:0; }
-    .tagline{ margin:14px 0 0; color:var(--text); }
+    .tagline{ margin:14px 0 0; color:var(--text); font-size:18px; }
+
     .container{ max-width:980px; margin:auto; padding:34px 20px 70px; }
 
     .toplinks{
@@ -47,7 +48,7 @@
 
     .btn{
       display:inline-block;
-      padding:8px 12px;
+      padding:9px 12px;
       border:1px solid var(--line);
       border-radius:10px;
       background:rgba(255,255,255,0.02);
@@ -78,15 +79,6 @@
     .card h3{ margin:0 0 8px; font-size:18px; }
     .meta{ color:var(--muted); font-size:14px; margin:0 0 10px; }
     ul{ margin:10px 0 0 18px; padding:0; }
-    .pillrow{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-    .pill{
-      font-size:12px;
-      color:var(--muted);
-      border:1px solid var(--line);
-      padding:4px 10px;
-      border-radius:999px;
-      background:rgba(255,255,255,0.02);
-    }
 
     footer{
       text-align:center;
@@ -104,7 +96,7 @@
     <h1>Oren Sason</h1>
     <p class="sub">Durham, United Kingdom</p>
     <p class="sub">BEng Mechanical Engineering — Durham University (Expected 2027)</p>
-    <p class="tagline">Engineering portfolio</p>
+    <p class="tagline">Engineering Portfolio</p>
 
     <div class="toplinks">
       <a class="btn" href="mailto:orensason.u@gmail.com">orensason.u@gmail.com</a>
@@ -128,20 +120,16 @@
 
         <p class="meta" style="margin-top:10px;">My contributions</p>
         <ul>
-          <li>Created the bill of materials (BOM) and cost breakdown; documented feasibility trade-offs.</li>
+          <li>Created the bill of materials (BOM) and cost breakdown.</li>
           <li>Developed the PCM-based cooling concept rationale and supported integration decisions.</li>
-          <li>Co-authored the case study write-up and supported CAD development (iteration + documentation).</li>
+          <li>Co-authored the feasibility documentation and supported CAD development (iteration + documentation).</li>
         </ul>
 
-        <div class="pillrow">
-          <span class="pill">Requirements</span>
-          <span class="pill">BOM & cost</span>
-          <span class="pill">Feasibility</span>
-          <span class="pill">Thermal concept (PCM)</span>
-          <span class="pill">CAD support</span>
-        </div>
-
-        <p style="margin:14px 0 0;"><a href="insulin-cooler.html">Open case study →</a></p>
+        <p style="margin:16px 0 0;">
+          <a href="downloads/insulin-feasibility.pdf" target="_blank" rel="noreferrer">
+            Open feasibility report (PDF) →
+          </a>
+        </p>
       </div>
 
       <div class="card">
@@ -150,16 +138,14 @@
 
         <p>
           Built and analyzed a nonlinear circuit model to study chaotic dynamics and sensitivity to parameter changes.
-          Focused on interpreting outputs (waveforms, phase behavior, and stability regions).
+          Focused on interpreting outputs (waveforms, phase behavior, stability regions).
         </p>
 
-        <div class="pillrow">
-          <span class="pill">LTspice</span>
-          <span class="pill">Nonlinear systems</span>
-          <span class="pill">Modeling & analysis</span>
-        </div>
-
-        <p style="margin:14px 0 0;"><a href="downloads/chua.pdf">Open PDF →</a></p>
+        <p style="margin:16px 0 0;">
+          <a href="downloads/chua.pdf" target="_blank" rel="noreferrer">
+            Open report (PDF) →
+          </a>
+        </p>
       </div>
     </div>
   </div>
